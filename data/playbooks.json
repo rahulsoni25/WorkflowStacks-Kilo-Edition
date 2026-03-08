@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "slug": "sample-playbook",
+    "name": "Sample Playbook",
+    "short_description": "A sample playbook to demonstrate the data model.",
+    "category": "research",
+    "goal_tags": ["lead-generation", "market-research"],
+    "channel_tags": ["email", "linkedin"],
+    "difficulty": "beginner",
+    "region_tags": ["us", "global"],
+    "outcome_text": "You will have a validated list of prospects and a repeatable research process.",
+    "before_bullets": [
+      "No structured research process",
+      "Wasting time on unqualified leads",
+      "Inconsistent outreach results"
+    ],
+    "after_bullets": [
+      "Repeatable, documented research workflow",
+      "Higher-quality prospect lists",
+      "Predictable pipeline growth"
+    ],
+    "how_steps": [
+      "Define your ideal customer profile (ICP)",
+      "Use the provided templates to source prospects",
+      "Qualify leads against your ICP criteria",
+      "Export and enrich your list",
+      "Hand off to outreach sequence"
+    ],
+    "what_you_get": [
+      "Step-by-step research checklist",
+      "ICP definition worksheet",
+      "Prospect qualification scorecard",
+      "Email templates for outreach"
+    ],
+    "technical_details": "Requires access to LinkedIn Sales Navigator or Apollo.io. Compatible with HubSpot, Salesforce, and Airtable.",
+    "gumroad_url": "https://gumroad.com/l/sample-playbook",
+    "price_usd": 29
+  }
+]
