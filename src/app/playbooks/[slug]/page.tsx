@@ -41,6 +41,10 @@ export default function PlaybookDetailPage({
   const playbook = getPlaybooks().find((p) => p.slug === params.slug);
   if (!playbook) notFound();
 
+  // Determine if this is a placeholder or real playbook
+  const isPlaceholder = playbook.is_placeholder || !playbook.gumroad_url;
+  const waitlistUrl = "https://example.com/playbook-waitlist";
+
   return (
     <main className="min-h-screen bg-neutral-900 text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
@@ -222,22 +226,40 @@ export default function PlaybookDetailPage({
 
               <div className="mt-8 space-y-3">
                 {/* Primary CTA */}
-                <a
-                  href={playbook.gumroad_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex w-full items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                >
-                  Get this playbook
-                </a>
+                {isPlaceholder ? (
+                  <>
+                    <a
+                      href={waitlistUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex w-full items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                    >
+                      Join the waitlist for this playbook
+                    </a>
+                    <p className="mt-3 text-sm text-neutral-400 text-center">
+                      This playbook is in validation. We&apos;ll turn it into a full product once there&apos;s enough demand.
+                    </p>
+                  </>
+                ) : (
+                  <a
+                    href={playbook.gumroad_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex w-full items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-500 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  >
+                    Get this playbook
+                  </a>
+                )}
 
-                <p className="mt-3 text-sm text-neutral-400 text-center">
-                  Need help implementing?{" "}
-                  <Link href="/automation-sprint" className="text-indigo-400 hover:text-indigo-300 underline">
-                    Automation Sprint
-                  </Link>{" "}
-                  available as a done-for-you add-on.
-                </p>
+                {!isPlaceholder && (
+                  <p className="mt-3 text-sm text-neutral-400 text-center">
+                    Need help implementing?{" "}
+                    <Link href="/automation-sprint" className="text-indigo-400 hover:text-indigo-300 underline">
+                      Automation Sprint
+                    </Link>{" "}
+                    available as a done-for-you add-on.
+                  </p>
+                )}
 
                 {/* Secondary CTA */}
                 <Link

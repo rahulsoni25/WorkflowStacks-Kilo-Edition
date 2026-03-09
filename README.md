@@ -72,8 +72,9 @@ Playbook content is managed in a Google Sheet (`WorkflowStacks_Content`, tab: `P
 | `how_steps` | string | Pipe-separated (`\|`) steps |
 | `what_you_get` | string | Pipe-separated (`\|`) deliverables |
 | `technical_details` | string | Plain text / markdown |
-| `gumroad_url` | string | Purchase link |
+| `gumroad_url` | string | Purchase link (leave empty for placeholder playbooks) |
 | `price_usd` | number | Price in USD |
+| `is_placeholder` | boolean | `TRUE` for concept-only, `FALSE` for real products |
 | `active` | boolean | `true`/`1`/`yes` to include |
 | `approved` | boolean | `true`/`1`/`yes` to include |
 
@@ -98,6 +99,22 @@ bun run sync:playbooks
 This overwrites `data/playbooks.json` with the active + approved rows from the Sheet. After running, commit and push the updated JSON to trigger a Vercel rebuild.
 
 > **Important:** Do NOT run this script during the production build. It is a local-only tool.
+
+---
+
+## How to add a new playbook
+
+No code changes are required to add new playbooks — only the Google Sheet and a sync:
+
+1. **Create the workflow** – Build the automation in your n8n, Make, or Zapier account.
+2. **Create a Gumroad product** – If selling the DIY version, create a product with the workflow files, setup guide, and any templates.
+3. **Add a row to the Google Sheet** – Fill in all required columns:
+   - Set `is_placeholder` to `FALSE` and add a real `gumroad_url` for products you want to sell
+   - Set `is_placeholder` to `TRUE` for concept-only playbooks (shows "Join waitlist" CTA)
+4. **Run the sync** – Execute `bun run sync:playbooks` locally.
+5. **Deploy** – Commit and push `data/playbooks.json` to trigger a Vercel rebuild.
+
+The new playbook will automatically appear on `/playbooks`, the home page (if featured), and in StackFinder recommendations (if tags match).
 
 ---
 

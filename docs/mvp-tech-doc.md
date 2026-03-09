@@ -84,3 +84,38 @@
 - **No auth** – MVP has no user accounts; all content is public.
 - **Performance** – All pages are pre-rendered; target Lighthouse score ≥ 90 on all Core Web Vitals.
 - **Accessibility** – Semantic HTML, `aria-hidden` on decorative SVGs, keyboard-navigable CTAs.
+
+---
+
+## Launch Checklist
+
+Before going live with real playbooks, complete these steps:
+
+1. **Create Gumroad products** – For each playbook you plan to sell, create a product in Gumroad with:
+   - Workflow file(s) (n8n/Make/Zapier export or PDF guide)
+   - Sheet template (if applicable)
+   - Short setup guide or Loom video walkthrough
+
+2. **Add Gumroad URLs to Sheet** – Copy each product's link into the `gumroad_url` column for the corresponding playbook in the Google Sheet.
+
+3. **Set placeholder flag** – In the Google Sheet, ensure `is_placeholder` is set to `FALSE` for playbooks you want to sell. Set to `TRUE` for concept-only playbooks.
+
+4. **Run sync** – Execute `bun run sync:playbooks` to pull updated data into `data/playbooks.json`.
+
+5. **Verify CTAs** – Visit `/playbooks/[slug]` for each "real" playbook and confirm the "Get this playbook" button links to Gumroad correctly.
+
+6. **Test the flow** – Complete a full purchase flow (or verify the Gumroad page loads without errors).
+
+---
+
+## Smoke Test
+
+Run this simple test before launch to verify the end-to-end user journey:
+
+1. Visit `/playbooks` – Confirm the playbook list loads.
+2. Click any "real" playbook → Navigate to `/playbooks/[slug]`.
+3. Click "Get this playbook" → Confirm the Gumroad page opens in a new tab.
+4. Click "Let us set it up for you" → Confirm `/automation-sprint` loads.
+5. Click "Book Automation Sprint" → Confirm the external booking/checkout URL opens.
+
+If any step fails, fix before deploying to production.

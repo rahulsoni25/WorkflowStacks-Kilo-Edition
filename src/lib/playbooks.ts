@@ -21,6 +21,7 @@ export type Playbook = {
   technical_details: string;
   gumroad_url: string;
   price_usd: number;
+  is_placeholder?: boolean;
 };
 
 export function getPlaybooks(): Playbook[] {

@@ -50,6 +50,7 @@ interface Playbook {
   technical_details: string;
   gumroad_url: string;
   price_usd: number;
+  is_placeholder?: boolean;
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -145,6 +146,7 @@ async function main() {
     "technical_details",
     "gumroad_url",
     "price_usd",
+    "is_placeholder",
     "active",
     "approved",
   ];
@@ -181,6 +183,7 @@ async function main() {
       technical_details: get(row, "technical_details"),
       gumroad_url: get(row, "gumroad_url"),
       price_usd: parseFloat(get(row, "price_usd")),
+      is_placeholder: isTruthy(get(row, "is_placeholder")),
     }));
 
   console.log(`✅  Found ${playbooks.length} active + approved playbook(s).`);

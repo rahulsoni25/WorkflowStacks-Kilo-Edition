@@ -41,7 +41,8 @@
     ],
     "technical_details": "Requires a LinkedIn account (Sales Navigator recommended). Compatible with HubSpot, Salesforce, and Airtable.",
     "gumroad_url": "https://gumroad.com/l/linkedin-lead-research",
-    "price_usd": 29
+    "price_usd": 29,
+    "is_placeholder": false
   },
   {
     "id": 2,
@@ -87,7 +88,8 @@
     ],
     "technical_details": "Requires Meta Business Manager access and a Facebook Page. Pixel installation requires website access.",
     "gumroad_url": "https://gumroad.com/l/meta-ads-lead-gen",
-    "price_usd": 49
+    "price_usd": 49,
+    "is_placeholder": false
   },
   {
     "id": 3,
@@ -132,7 +134,8 @@
     ],
     "technical_details": "Requires Google Ads account and Google Tag Manager or direct website access for conversion tracking.",
     "gumroad_url": "https://gumroad.com/l/google-ads-search-leads",
-    "price_usd": 49
+    "price_usd": 49,
+    "is_placeholder": false
   },
   {
     "id": 4,
@@ -177,7 +180,8 @@
     ],
     "technical_details": "Compatible with Mailchimp, ActiveCampaign, ConvertKit, and most major ESPs.",
     "gumroad_url": "https://gumroad.com/l/email-nurture-sequence",
-    "price_usd": 39
+    "price_usd": 39,
+    "is_placeholder": false
   },
   {
     "id": 5,
@@ -222,7 +226,8 @@
     ],
     "technical_details": "Requires WhatsApp Business App or WhatsApp Business API (via providers like Twilio or WATI).",
     "gumroad_url": "https://gumroad.com/l/whatsapp-nurture-broadcast",
-    "price_usd": 29
+    "price_usd": 29,
+    "is_placeholder": false
   },
   {
     "id": 6,
@@ -267,7 +272,8 @@
     ],
     "technical_details": "No special tools required. Optional: SimilarWeb, SEMrush, or SpyFu for deeper analysis.",
     "gumroad_url": "https://gumroad.com/l/competitor-research-framework",
-    "price_usd": 29
+    "price_usd": 29,
+    "is_placeholder": false
   },
   {
     "id": 7,
@@ -312,7 +318,8 @@
     ],
     "technical_details": "Requires Zapier or Make (formerly Integromat) account. Free tiers available for basic automations.",
     "gumroad_url": "https://gumroad.com/l/ops-automation-sop",
-    "price_usd": 59
+    "price_usd": 59,
+    "is_placeholder": false
   },
   {
     "id": 8,
@@ -357,6 +364,7 @@
     ],
     "technical_details": "Works with native LinkedIn scheduling or tools like Buffer, Hootsuite, or Taplio.",
     "gumroad_url": "https://gumroad.com/l/linkedin-nurture-content",
-    "price_usd": 39
+    "price_usd": 39,
+    "is_placeholder": false
   }
 ]
