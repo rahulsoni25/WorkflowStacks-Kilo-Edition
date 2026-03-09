@@ -1,32 +1,67 @@
-# Pro / Product Tiers
+# WorkflowStacks – Plans & Pricing
 
-## Product Tiers
+## Overview
 
-- **Free** – Entry-level, limited usage
-- **Pro** – Full-featured for individuals
-- **Team** – Collaboration features
-- **Enterprise** – Custom contracts, SLA, SSO
+WorkflowStacks offers three tiers to match different levels of need and budget.
 
-## Plan & Pricing
+---
 
-| Feature              | Free | Pro  | Team | Enterprise |
-| -------------------- | ---- | ---- | ---- | ---------- |
-| Users                | 1    | 1    | 5+   | Unlimited  |
-| Storage              | 1 GB | 10 GB| 50 GB| Custom     |
-| API access           | ❌   | ✅   | ✅   | ✅         |
-| Priority support     | ❌   | ❌   | ✅   | ✅         |
-| SSO / SAML           | ❌   | ❌   | ❌   | ✅         |
-| Price (monthly)      | $0   | $X   | $Y   | Contact us |
+## Plans
+
+### 1. DIY Playbooks
+**Type:** Per-playbook purchase (one-time)  
+**Price:** From $29 per playbook  
+**Who it's for:** Operators and founders who are comfortable setting up tools themselves and want a proven, step-by-step playbook to follow.
+
+**What you get:**
+- Instant download after purchase
+- Step-by-step setup guide
+- Tool & integration checklist
+- Community support
+
+---
+
+### 2. Automation Sprint
+**Type:** Fixed implementation fee (one-time)  
+**Price:** $499  
+**Who it's for:** Teams who want the result without the setup work — our team configures the playbook in your stack.
+
+**What you get:**
+- Everything in DIY Playbooks
+- Full setup & configuration by our team
+- Custom workflow tailored to your stack
+- 1-hour walkthrough call
+- 7-day post-launch support
+
+---
+
+### 3. WorkflowStacks Pro *(future — not yet launched)*
+**Type:** Subscription  
+**Price:** TBD  
+**Who it's for:** Growing teams who want ongoing access to the full playbook library, priority support, and new automations as they ship.
+
+**What you get (planned):**
+- Unlimited access to all playbooks
+- Early access to new playbooks
+- Priority support
+- Team seats
+- Quarterly strategy call
+
+> **Note:** WorkflowStacks Pro is documented here for planning purposes only. It is not yet available for purchase.
+
+---
 
 ## Feature Matrix
 
-- List all features and which tier they belong to
-- Highlight differentiating features per tier
-- Note any usage limits (rate limits, quotas)
-
-## Future Roadmap
-
-- Q1 – Feature X
-- Q2 – Feature Y
-- Q3 – Feature Z
-- Long-term vision and strategic direction
+| Feature | DIY Playbooks | Automation Sprint | Pro *(future)* |
+|---|---|---|---|
+| Access to playbooks | Per purchase | Included | Unlimited |
+| Setup guide | ✅ | ✅ | ✅ |
+| Tool checklist | ✅ | ✅ | ✅ |
+| Done-for-you setup | ❌ | ✅ | ✅ |
+| Custom configuration | ❌ | ✅ | ✅ |
+| Walkthrough call | ❌ | ✅ | ✅ |
+| Post-launch support | ❌ | 7 days | Priority |
+| Team seats | ❌ | ❌ | ✅ |
+| New playbooks (auto) | ❌ | ❌ | ✅ |
+| Price | From $29/playbook | $499 one-time | TBD |

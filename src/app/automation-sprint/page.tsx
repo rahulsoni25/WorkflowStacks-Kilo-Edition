@@ -158,6 +158,81 @@ export default function AutomationSprintPage() {
             </div>
           </section>
 
+          {/* Pricing */}
+          <section>
+            <h2 className="text-2xl font-bold tracking-tight mb-8">
+              Pricing
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Card A – DIY Playbooks */}
+              <div className="rounded-2xl border border-neutral-700 bg-neutral-800 p-8 flex flex-col">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-bold">DIY Playbooks</h3>
+                  <span className="rounded-full bg-neutral-700 border border-neutral-600 px-3 py-1 text-xs font-semibold text-neutral-300">
+                    Self-serve
+                  </span>
+                </div>
+                <div className="mb-1">
+                  <span className="text-4xl font-extrabold">From $29</span>
+                </div>
+                <p className="text-sm text-neutral-400 mb-6">per playbook, one-time</p>
+                <ul className="space-y-3 mb-8 flex-1">
+                  {[
+                    "Instant download after purchase",
+                    "Step-by-step setup guide",
+                    "Tool & integration checklist",
+                    "Community support",
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-neutral-300 text-sm">
+                      <CheckIcon />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Link
+                  href="/playbooks"
+                  className="inline-flex items-center justify-center rounded-lg border border-neutral-600 px-6 py-3 text-sm font-semibold text-neutral-200 hover:border-neutral-400 hover:text-white transition-colors"
+                >
+                  Browse Playbooks
+                </Link>
+              </div>
+
+              {/* Card B – Automation Sprint (featured) */}
+              <div className="rounded-2xl border border-indigo-500 bg-neutral-800 p-8 flex flex-col ring-1 ring-indigo-500/30">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-bold">Automation Sprint</h3>
+                  <span className="rounded-full bg-indigo-900/60 border border-indigo-700 px-3 py-1 text-xs font-semibold text-indigo-300">
+                    Done-for-you
+                  </span>
+                </div>
+                <div className="mb-1">
+                  <span className="text-4xl font-extrabold">$499</span>
+                </div>
+                <p className="text-sm text-neutral-400 mb-6">one-time implementation fee</p>
+                <ul className="space-y-3 mb-8 flex-1">
+                  {[
+                    "Everything in DIY Playbooks",
+                    "Full setup & configuration by our team",
+                    "Custom workflow tailored to your stack",
+                    "1-hour walkthrough call",
+                    "7-day post-launch support",
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3 text-neutral-300 text-sm">
+                      <CheckIcon />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="https://placeholder.example.com/book-automation-sprint"
+                  className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors"
+                >
+                  Book Automation Sprint
+                </a>
+              </div>
+            </div>
+          </section>
+
           {/* How it works */}
           <section>
             <h2 className="text-2xl font-bold tracking-tight mb-8">

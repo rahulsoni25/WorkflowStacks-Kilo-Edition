@@ -22,6 +22,9 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] `data/playbooks.json` expanded to 8 playbooks with proper `goal_tags` (`leads`, `competitor_research`, `nurture`, `ops`) and `channel_tags` (`meta`, `google`, `linkedin`, `email`, `whatsapp`)
 - [x] `/stackfinder` quiz page: server component wrapper + `StackFinderClient` (`"use client"`) with 4-step form (goal, channels, skill, budget), deterministic filtering, up to 3 result cards with "Because you chose…" rationale, done-for-you banner for non-technical + budget ≥ $50, empty-state with browse link
 - [x] `/automation-sprint` static info page: Hero with headline + CTA, "Who this is for", "What's included", "How it works" (5-step numbered list), bottom CTA section; placeholder booking URL; no data fetching
+- [x] /automation-sprint: added Pricing section with DIY Playbooks ($29/playbook) and Automation Sprint ($499) cards
+- [x] /playbooks/[slug]: added "Need help implementing? Automation Sprint add-on" text below CTA
+- [x] docs/pro.md: updated with DIY Playbooks, Automation Sprint, WorkflowStacks Pro plans and feature matrix
 
 ## Current Structure
 
@@ -93,3 +96,4 @@ export async function GET() {
 | Date | Changes |
 |------|---------|
 | Initial | Template created with base setup |
+| 2026-03-09 | Added Pricing section to /automation-sprint, "Need help implementing?" add-on text to /playbooks/[slug], updated docs/pro.md with plans and feature matrix |

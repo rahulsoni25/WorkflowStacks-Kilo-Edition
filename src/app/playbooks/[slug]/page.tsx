@@ -196,6 +196,14 @@ export default function PlaybookDetailPage({
                   Get this playbook
                 </a>
 
+                <p className="mt-3 text-sm text-neutral-400 text-center">
+                  Need help implementing?{" "}
+                  <Link href="/automation-sprint" className="text-indigo-400 hover:text-indigo-300 underline">
+                    Automation Sprint
+                  </Link>{" "}
+                  available as a done-for-you add-on.
+                </p>
+
                 {/* Secondary CTA */}
                 <Link
                   href="/automation-sprint"
