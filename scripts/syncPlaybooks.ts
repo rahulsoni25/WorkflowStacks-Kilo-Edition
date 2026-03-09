@@ -40,6 +40,9 @@ interface Playbook {
   difficulty: "beginner" | "intermediate" | "advanced";
   region_tags: string[];
   outcome_text: string;
+  who_this_is_for: string;
+  prerequisites: string[];
+  time_to_deploy: string;
   before_bullets: string[];
   after_bullets: string[];
   how_steps: string[];
@@ -132,6 +135,9 @@ async function main() {
     "difficulty",
     "region_tags",
     "outcome_text",
+    "who_this_is_for",
+    "prerequisites",
+    "time_to_deploy",
     "before_bullets",
     "after_bullets",
     "how_steps",
@@ -165,6 +171,9 @@ async function main() {
       difficulty: get(row, "difficulty") as Playbook["difficulty"],
       region_tags: splitComma(get(row, "region_tags")),
       outcome_text: get(row, "outcome_text"),
+      who_this_is_for: get(row, "who_this_is_for"),
+      prerequisites: splitPipe(get(row, "prerequisites")),
+      time_to_deploy: get(row, "time_to_deploy"),
       before_bullets: splitPipe(get(row, "before_bullets")),
       after_bullets: splitPipe(get(row, "after_bullets")),
       how_steps: splitPipe(get(row, "how_steps")),

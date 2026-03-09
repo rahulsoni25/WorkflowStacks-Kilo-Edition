@@ -102,6 +102,41 @@ export default function PlaybookDetailPage({
               </p>
             </div>
 
+            {/* Who this is for */}
+            <div className="rounded-xl border border-neutral-700 bg-neutral-800 p-6">
+              <h2 className="text-sm font-semibold uppercase tracking-widest text-indigo-400 mb-3">
+                Who this is for
+              </h2>
+              <p className="text-sm text-neutral-300 leading-relaxed">
+                {playbook.who_this_is_for}
+              </p>
+            </div>
+
+            {/* Prerequisites & Time to deploy */}
+            <div className="grid gap-6 sm:grid-cols-2">
+              <div className="rounded-xl border border-neutral-700 bg-neutral-800 p-6">
+                <h2 className="text-sm font-semibold uppercase tracking-widest text-indigo-400 mb-3">
+                  Prerequisites
+                </h2>
+                <ul className="space-y-2">
+                  {playbook.prerequisites.map((req, i) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-neutral-300">
+                      <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500" aria-hidden="true" />
+                      {req}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="rounded-xl border border-neutral-700 bg-neutral-800 p-6">
+                <h2 className="text-sm font-semibold uppercase tracking-widest text-indigo-400 mb-3">
+                  Time to deploy
+                </h2>
+                <p className="text-sm text-neutral-300 leading-relaxed">
+                  {playbook.time_to_deploy}
+                </p>
+              </div>
+            </div>
+
             {/* Before / After */}
             <div className="grid gap-6 sm:grid-cols-2">
               {/* Before */}

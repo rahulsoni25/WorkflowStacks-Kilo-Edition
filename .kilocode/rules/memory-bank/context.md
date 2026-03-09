@@ -30,6 +30,8 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] `docs/mvp-tech-doc.md`: populated with MVP scope, user flows, features (shipped vs future), tech stack, constraints
 - [x] `docs/system-design.md`: populated with high-level architecture, modules, Playbook data model, performance/scaling, security/observability
 - [x] `README.md`: created with project description, local dev setup, Sheets sync instructions, pricing model overview, Vercel deployment guide, remaining TODOs
+- [x] Updated Playbook data model with system-style names, outcome-driven outcomes, and new fields (`who_this_is_for`, `prerequisites`, `time_to_deploy`)
+- [x] Updated playbook detail page with "Who this is for" and "Prerequisites & Time to deploy" sections
 
 ## Current Structure
 
@@ -102,3 +104,4 @@ export async function GET() {
 |------|---------|
 | Initial | Template created with base setup |
 | 2026-03-09 | Added Pricing section to /automation-sprint, "Need help implementing?" add-on text to /playbooks/[slug], updated docs/pro.md with plans and feature matrix |
+| 2026-03-09 | Updated Playbook data model with system-style names (e.g., "LinkedIn Lead Mining Engine"), outcome-driven outcomes (numeric targets), and new fields (who_this_is_for, prerequisites, time_to_deploy); Added "Who this is for" and "Prerequisites & Time to deploy" sections to playbook detail page |

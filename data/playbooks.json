@@ -2,14 +2,20 @@
   {
     "id": 1,
     "slug": "linkedin-lead-research",
-    "name": "LinkedIn Lead Research Playbook",
+    "name": "LinkedIn Lead Mining Engine",
     "short_description": "Build a repeatable system for finding and qualifying B2B leads on LinkedIn.",
     "category": "research",
     "goal_tags": ["leads"],
     "channel_tags": ["linkedin"],
     "difficulty": "beginner",
     "region_tags": ["global"],
-    "outcome_text": "You will have a validated list of prospects and a repeatable research process.",
+    "outcome_text": "Generate 50+ qualified leads per week with a fully automated research workflow.",
+    "who_this_is_for": "B2B founders and sales teams looking to scale outbound prospecting without hiring a research agency. Ideal for those already using LinkedIn Sales Navigator.",
+    "prerequisites": [
+      "LinkedIn Sales Navigator (recommended)",
+      "Google Sheets or CRM (HubSpot, Salesforce, Airtable)"
+    ],
+    "time_to_deploy": "1-2 hours to set up the workflow; ongoing research takes ~30 min/day",
     "before_bullets": [
       "No structured research process",
       "Wasting time on unqualified leads",
@@ -40,14 +46,22 @@
   {
     "id": 2,
     "slug": "meta-ads-lead-gen",
-    "name": "Meta Ads Lead Generation Playbook",
+    "name": "Meta Lead Gen Machine",
     "short_description": "Run high-converting Meta (Facebook/Instagram) lead gen campaigns from scratch.",
     "category": "ads",
     "goal_tags": ["leads"],
     "channel_tags": ["meta"],
     "difficulty": "intermediate",
     "region_tags": ["global"],
-    "outcome_text": "You will have a live Meta campaign generating qualified leads at a predictable cost.",
+    "outcome_text": "Generate 20-50 qualified leads per week at a cost-per-lead under $15.",
+    "who_this_is_for": "D2C brands, local service businesses, and agencies running Meta ads. Best for those with a landing page or lead form ready.",
+    "prerequisites": [
+      "Meta Business Manager account",
+      "Facebook Page",
+      "Landing page or Meta Lead Form",
+      "Pixel installed (recommended)"
+    ],
+    "time_to_deploy": "2-3 hours for initial setup; budget of $500+ recommended for testing",
     "before_bullets": [
       "Burning budget on untargeted ads",
       "No clear funnel from ad to lead",
@@ -78,14 +92,21 @@
   {
     "id": 3,
     "slug": "google-ads-search-leads",
-    "name": "Google Search Ads for Leads Playbook",
+    "name": "Google Search Capture System",
     "short_description": "Capture high-intent buyers searching for your solution on Google.",
     "category": "ads",
     "goal_tags": ["leads"],
     "channel_tags": ["google"],
     "difficulty": "intermediate",
     "region_tags": ["global"],
-    "outcome_text": "You will have a Google Search campaign capturing high-intent leads at a controlled cost.",
+    "outcome_text": "Capture 15-40 high-intent leads per week with a controlled cost-per-acquisition under $25.",
+    "who_this_is_for": "Service businesses, B2B companies, and local shops targeting customers who actively search for their solution. Works best for products/services with clear search volume.",
+    "prerequisites": [
+      "Google Ads account",
+      "Google Analytics (recommended)",
+      "Conversion tracking setup (GTM or direct)"
+    ],
+    "time_to_deploy": "2-3 hours for setup; requires ongoing weekly optimization",
     "before_bullets": [
       "Missing buyers who are actively searching",
       "Wasted spend on broad match keywords",
@@ -116,14 +137,21 @@
   {
     "id": 4,
     "slug": "email-nurture-sequence",
-    "name": "Email Nurture Sequence Playbook",
+    "name": "Always-On Lead Nurture Engine",
     "short_description": "Turn cold subscribers into warm buyers with a 7-email nurture sequence.",
     "category": "nurture",
     "goal_tags": ["nurture"],
     "channel_tags": ["email"],
     "difficulty": "beginner",
     "region_tags": ["global"],
-    "outcome_text": "You will have an automated email sequence that moves subscribers toward a purchase decision.",
+    "outcome_text": "Convert 15-25% of cold email subscribers into sales-ready leads within 30 days.",
+    "who_this_is_for": "Founders and marketers building email lists who want to monetize their subscribers without being pushy. Ideal for those using Mailchimp, ConvertKit, or ActiveCampaign.",
+    "prerequisites": [
+      "Email service provider (Mailchimp, ConvertKit, ActiveCampaign)",
+      "Lead magnet or opt-in form",
+      "100+ email subscribers (minimum)"
+    ],
+    "time_to_deploy": "1-2 hours to set up automation; email writing takes additional time",
     "before_bullets": [
       "Leads go cold after the first email",
       "No follow-up system in place",
@@ -154,14 +182,21 @@
   {
     "id": 5,
     "slug": "whatsapp-nurture-broadcast",
-    "name": "WhatsApp Nurture Broadcast Playbook",
+    "name": "WhatsApp Broadcast Revenue Engine",
     "short_description": "Re-engage your audience and drive repeat purchases via WhatsApp broadcasts.",
     "category": "nurture",
     "goal_tags": ["nurture"],
     "channel_tags": ["whatsapp"],
     "difficulty": "beginner",
     "region_tags": ["global"],
-    "outcome_text": "You will have a WhatsApp broadcast strategy that keeps your audience engaged and buying.",
+    "outcome_text": "Generate 10-20 repeat purchases per month through automated WhatsApp broadcasts with 70%+ open rates.",
+    "who_this_is_for": "D2C brands, e-commerce stores, and service businesses with an existing customer base. Especially effective for Indian and Middle East markets where WhatsApp is dominant.",
+    "prerequisites": [
+      "WhatsApp Business App or API",
+      "Customer phone number list (opt-in)",
+      "Broadcast content plan"
+    ],
+    "time_to_deploy": "1-2 hours to set up; ongoing content creation takes 1-2 hours/week",
     "before_bullets": [
       "Low email open rates",
       "No direct channel to your audience",
@@ -192,14 +227,21 @@
   {
     "id": 6,
     "slug": "competitor-research-framework",
-    "name": "Competitor Research Framework",
+    "name": "Competitor Intelligence Radar",
     "short_description": "Systematically map your competitive landscape and find positioning gaps.",
     "category": "research",
     "goal_tags": ["competitor_research"],
     "channel_tags": ["linkedin", "google"],
     "difficulty": "beginner",
     "region_tags": ["global"],
-    "outcome_text": "You will have a clear competitive map and a differentiated positioning statement.",
+    "outcome_text": "Get a complete competitive map and differentiated positioning strategy within 1 week.",
+    "who_this_is_for": "Founders and product managers launching new offerings or struggling with competitor pricing. Best for markets with 5-20 known competitors.",
+    "prerequisites": [
+      "List of 5-10 direct competitors",
+      "Google Sheets or similar",
+      "Optional: SimilarWeb, SEMrush, or SpyFu"
+    ],
+    "time_to_deploy": "3-5 hours for initial audit; 30 min/week for ongoing monitoring",
     "before_bullets": [
       "Unclear how you compare to competitors",
       "Losing deals without knowing why",
@@ -230,14 +272,21 @@
   {
     "id": 7,
     "slug": "ops-automation-sop",
-    "name": "Ops Automation SOP Playbook",
+    "name": "Ops Automation Workhorse",
     "short_description": "Document and automate your most repetitive internal workflows using no-code tools.",
     "category": "ops",
     "goal_tags": ["ops"],
     "channel_tags": ["email"],
     "difficulty": "intermediate",
     "region_tags": ["global"],
-    "outcome_text": "You will have documented SOPs and automated workflows saving hours every week.",
+    "outcome_text": "Save 5-10 hours per week by automating your top 3 time-consuming manual processes.",
+    "who_this_is_for": "Founders, operations managers, and small teams overwhelmed by repetitive tasks. Best for those using or willing to learn Zapier or Make.",
+    "prerequisites": [
+      "Zapier or Make account (free tier works)",
+      "List of top 3 time-wasting tasks",
+      "Access to tools/APIs to connect"
+    ],
+    "time_to_deploy": "2-4 hours to document SOPs and build first automation; additional automations take 1-2 hours each",
     "before_bullets": [
       "Repetitive manual tasks eating your time",
       "No documented processes for your team",
@@ -268,14 +317,21 @@
   {
     "id": 8,
     "slug": "linkedin-nurture-content",
-    "name": "LinkedIn Nurture Content Playbook",
+    "name": "LinkedIn Content Authority Builder",
     "short_description": "Build authority and stay top-of-mind with a consistent LinkedIn content system.",
     "category": "nurture",
     "goal_tags": ["nurture"],
     "channel_tags": ["linkedin"],
     "difficulty": "beginner",
     "region_tags": ["global"],
-    "outcome_text": "You will have a 30-day LinkedIn content calendar and a repeatable posting system.",
+    "outcome_text": "Post 5x per week consistently and generate 10-25 inbound leads per month from LinkedIn.",
+    "who_this_is_for": "Founders, consultants, and B2B professionals building personal brand. Ideal for those who want to establish thought leadership but struggle with content consistency.",
+    "prerequisites": [
+      "LinkedIn profile",
+      "LinkedIn Personal or Company Page",
+      "30-60 minutes per week for content creation"
+    ],
+    "time_to_deploy": "2-3 hours to set up content calendar and batch-create first month's posts",
     "before_bullets": [
       "Posting inconsistently or not at all",
       "Low engagement on existing content",

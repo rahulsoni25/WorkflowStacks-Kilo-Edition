@@ -11,6 +11,9 @@ export type Playbook = {
   difficulty: "beginner" | "intermediate" | "advanced";
   region_tags: string[];
   outcome_text: string;
+  who_this_is_for: string;
+  prerequisites: string[];
+  time_to_deploy: string;
   before_bullets: string[];
   after_bullets: string[];
   how_steps: string[];
