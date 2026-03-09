@@ -25,6 +25,11 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] /automation-sprint: added Pricing section with DIY Playbooks ($29/playbook) and Automation Sprint ($499) cards
 - [x] /playbooks/[slug]: added "Need help implementing? Automation Sprint add-on" text below CTA
 - [x] docs/pro.md: updated with DIY Playbooks, Automation Sprint, WorkflowStacks Pro plans and feature matrix
+- [x] `scripts/syncPlaybooks.ts`: Google Sheets → `data/playbooks.json` sync script using service account auth; `sync:playbooks` npm script added; `googleapis` dev dependency installed
+- [x] `docs/architecture.md`: populated with components, data flow diagram, external services, deployment story
+- [x] `docs/mvp-tech-doc.md`: populated with MVP scope, user flows, features (shipped vs future), tech stack, constraints
+- [x] `docs/system-design.md`: populated with high-level architecture, modules, Playbook data model, performance/scaling, security/observability
+- [x] `README.md`: created with project description, local dev setup, Sheets sync instructions, pricing model overview, Vercel deployment guide, remaining TODOs
 
 ## Current Structure
 
