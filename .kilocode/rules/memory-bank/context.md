@@ -18,6 +18,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] Sample playbook data in `data/playbooks.json`
 - [x] Home page v2: Hero section + Featured Playbooks grid using `getPlaybooks()`
 - [x] `/playbooks` list page: server component + `PlaybooksClient` with category filter chips (All, Research, Ads, Nurture, Ops) and responsive card grid
+- [x] `/playbooks/[slug]` detail page: SSG via `generateStaticParams`, two-column layout (main + sticky right panel), Before/After, How it works, What you get, collapsible Technical details (`TechnicalDetails` client component)
 
 ## Current Structure
 
