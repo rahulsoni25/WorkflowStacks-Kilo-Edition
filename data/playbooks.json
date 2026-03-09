@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "slug": "sample-playbook",
-    "name": "Sample Playbook",
-    "short_description": "A sample playbook to demonstrate the data model.",
+    "slug": "linkedin-lead-research",
+    "name": "LinkedIn Lead Research Playbook",
+    "short_description": "Build a repeatable system for finding and qualifying B2B leads on LinkedIn.",
     "category": "research",
-    "goal_tags": ["lead-generation", "market-research"],
-    "channel_tags": ["email", "linkedin"],
+    "goal_tags": ["leads"],
+    "channel_tags": ["linkedin"],
     "difficulty": "beginner",
-    "region_tags": ["us", "global"],
+    "region_tags": ["global"],
     "outcome_text": "You will have a validated list of prospects and a repeatable research process.",
     "before_bullets": [
       "No structured research process",
@@ -22,7 +22,7 @@
     ],
     "how_steps": [
       "Define your ideal customer profile (ICP)",
-      "Use the provided templates to source prospects",
+      "Use LinkedIn filters to source prospects",
       "Qualify leads against your ICP criteria",
       "Export and enrich your list",
       "Hand off to outreach sequence"
@@ -31,10 +31,276 @@
       "Step-by-step research checklist",
       "ICP definition worksheet",
       "Prospect qualification scorecard",
-      "Email templates for outreach"
+      "LinkedIn search templates"
     ],
-    "technical_details": "Requires access to LinkedIn Sales Navigator or Apollo.io. Compatible with HubSpot, Salesforce, and Airtable.",
-    "gumroad_url": "https://gumroad.com/l/sample-playbook",
+    "technical_details": "Requires a LinkedIn account (Sales Navigator recommended). Compatible with HubSpot, Salesforce, and Airtable.",
+    "gumroad_url": "https://gumroad.com/l/linkedin-lead-research",
     "price_usd": 29
+  },
+  {
+    "id": 2,
+    "slug": "meta-ads-lead-gen",
+    "name": "Meta Ads Lead Generation Playbook",
+    "short_description": "Run high-converting Meta (Facebook/Instagram) lead gen campaigns from scratch.",
+    "category": "ads",
+    "goal_tags": ["leads"],
+    "channel_tags": ["meta"],
+    "difficulty": "intermediate",
+    "region_tags": ["global"],
+    "outcome_text": "You will have a live Meta campaign generating qualified leads at a predictable cost.",
+    "before_bullets": [
+      "Burning budget on untargeted ads",
+      "No clear funnel from ad to lead",
+      "Poor creative performance"
+    ],
+    "after_bullets": [
+      "Targeted campaigns with clear audience segments",
+      "Optimised lead form or landing page",
+      "Consistent cost-per-lead benchmarks"
+    ],
+    "how_steps": [
+      "Set up your Meta Business Manager and Pixel",
+      "Define audience segments using interest and lookalike targeting",
+      "Create ad creative using the provided templates",
+      "Launch with a test budget and monitor CPL",
+      "Scale winning ad sets"
+    ],
+    "what_you_get": [
+      "Campaign structure template",
+      "Audience targeting guide",
+      "Ad creative brief template",
+      "Optimisation checklist"
+    ],
+    "technical_details": "Requires Meta Business Manager access and a Facebook Page. Pixel installation requires website access.",
+    "gumroad_url": "https://gumroad.com/l/meta-ads-lead-gen",
+    "price_usd": 49
+  },
+  {
+    "id": 3,
+    "slug": "google-ads-search-leads",
+    "name": "Google Search Ads for Leads Playbook",
+    "short_description": "Capture high-intent buyers searching for your solution on Google.",
+    "category": "ads",
+    "goal_tags": ["leads"],
+    "channel_tags": ["google"],
+    "difficulty": "intermediate",
+    "region_tags": ["global"],
+    "outcome_text": "You will have a Google Search campaign capturing high-intent leads at a controlled cost.",
+    "before_bullets": [
+      "Missing buyers who are actively searching",
+      "Wasted spend on broad match keywords",
+      "No conversion tracking in place"
+    ],
+    "after_bullets": [
+      "Keyword strategy targeting buyer-intent queries",
+      "Conversion tracking set up correctly",
+      "Optimised bidding strategy"
+    ],
+    "how_steps": [
+      "Set up Google Ads account and conversion tracking",
+      "Research and group keywords by intent",
+      "Write ad copy using the AIDA framework",
+      "Set bids and daily budget",
+      "Review search terms weekly and add negatives"
+    ],
+    "what_you_get": [
+      "Keyword research template",
+      "Ad copy swipe file",
+      "Conversion tracking setup guide",
+      "Weekly optimisation checklist"
+    ],
+    "technical_details": "Requires Google Ads account and Google Tag Manager or direct website access for conversion tracking.",
+    "gumroad_url": "https://gumroad.com/l/google-ads-search-leads",
+    "price_usd": 49
+  },
+  {
+    "id": 4,
+    "slug": "email-nurture-sequence",
+    "name": "Email Nurture Sequence Playbook",
+    "short_description": "Turn cold subscribers into warm buyers with a 7-email nurture sequence.",
+    "category": "nurture",
+    "goal_tags": ["nurture"],
+    "channel_tags": ["email"],
+    "difficulty": "beginner",
+    "region_tags": ["global"],
+    "outcome_text": "You will have an automated email sequence that moves subscribers toward a purchase decision.",
+    "before_bullets": [
+      "Leads go cold after the first email",
+      "No follow-up system in place",
+      "Low open and click rates"
+    ],
+    "after_bullets": [
+      "7-email sequence running on autopilot",
+      "Consistent engagement from new subscribers",
+      "Higher conversion rate from list to customer"
+    ],
+    "how_steps": [
+      "Map your subscriber journey from sign-up to purchase",
+      "Write each email using the provided frameworks",
+      "Set up automation in your ESP",
+      "A/B test subject lines",
+      "Monitor open, click, and conversion rates"
+    ],
+    "what_you_get": [
+      "7 email templates (editable)",
+      "Subject line swipe file",
+      "Automation setup guide",
+      "Metrics tracking spreadsheet"
+    ],
+    "technical_details": "Compatible with Mailchimp, ActiveCampaign, ConvertKit, and most major ESPs.",
+    "gumroad_url": "https://gumroad.com/l/email-nurture-sequence",
+    "price_usd": 39
+  },
+  {
+    "id": 5,
+    "slug": "whatsapp-nurture-broadcast",
+    "name": "WhatsApp Nurture Broadcast Playbook",
+    "short_description": "Re-engage your audience and drive repeat purchases via WhatsApp broadcasts.",
+    "category": "nurture",
+    "goal_tags": ["nurture"],
+    "channel_tags": ["whatsapp"],
+    "difficulty": "beginner",
+    "region_tags": ["global"],
+    "outcome_text": "You will have a WhatsApp broadcast strategy that keeps your audience engaged and buying.",
+    "before_bullets": [
+      "Low email open rates",
+      "No direct channel to your audience",
+      "Struggling to re-engage past customers"
+    ],
+    "after_bullets": [
+      "High open-rate WhatsApp broadcast list",
+      "Repeatable broadcast calendar",
+      "Increased repeat purchase rate"
+    ],
+    "how_steps": [
+      "Set up WhatsApp Business or API account",
+      "Build your opt-in list with a lead magnet",
+      "Create a broadcast content calendar",
+      "Write messages using the provided templates",
+      "Track link clicks and replies"
+    ],
+    "what_you_get": [
+      "WhatsApp message templates",
+      "Opt-in landing page copy",
+      "Broadcast content calendar",
+      "Compliance checklist"
+    ],
+    "technical_details": "Requires WhatsApp Business App or WhatsApp Business API (via providers like Twilio or WATI).",
+    "gumroad_url": "https://gumroad.com/l/whatsapp-nurture-broadcast",
+    "price_usd": 29
+  },
+  {
+    "id": 6,
+    "slug": "competitor-research-framework",
+    "name": "Competitor Research Framework",
+    "short_description": "Systematically map your competitive landscape and find positioning gaps.",
+    "category": "research",
+    "goal_tags": ["competitor_research"],
+    "channel_tags": ["linkedin", "google"],
+    "difficulty": "beginner",
+    "region_tags": ["global"],
+    "outcome_text": "You will have a clear competitive map and a differentiated positioning statement.",
+    "before_bullets": [
+      "Unclear how you compare to competitors",
+      "Losing deals without knowing why",
+      "No structured way to track competitor moves"
+    ],
+    "after_bullets": [
+      "Documented competitive landscape",
+      "Clear differentiation and positioning",
+      "Ongoing competitor monitoring system"
+    ],
+    "how_steps": [
+      "Identify your top 5–10 competitors",
+      "Audit their messaging, pricing, and channels",
+      "Map feature and positioning gaps",
+      "Define your unique positioning statement",
+      "Set up alerts to monitor competitor activity"
+    ],
+    "what_you_get": [
+      "Competitor audit template",
+      "Positioning gap analysis worksheet",
+      "Positioning statement framework",
+      "Google Alerts setup guide"
+    ],
+    "technical_details": "No special tools required. Optional: SimilarWeb, SEMrush, or SpyFu for deeper analysis.",
+    "gumroad_url": "https://gumroad.com/l/competitor-research-framework",
+    "price_usd": 29
+  },
+  {
+    "id": 7,
+    "slug": "ops-automation-sop",
+    "name": "Ops Automation SOP Playbook",
+    "short_description": "Document and automate your most repetitive internal workflows using no-code tools.",
+    "category": "ops",
+    "goal_tags": ["ops"],
+    "channel_tags": ["email"],
+    "difficulty": "intermediate",
+    "region_tags": ["global"],
+    "outcome_text": "You will have documented SOPs and automated workflows saving hours every week.",
+    "before_bullets": [
+      "Repetitive manual tasks eating your time",
+      "No documented processes for your team",
+      "Errors from inconsistent execution"
+    ],
+    "after_bullets": [
+      "Key workflows documented as SOPs",
+      "Automations running in the background",
+      "Team executing consistently without hand-holding"
+    ],
+    "how_steps": [
+      "Audit your weekly tasks and identify top time-wasters",
+      "Document each process as a step-by-step SOP",
+      "Map automation triggers and actions",
+      "Build automations in Zapier or Make",
+      "Test, hand off, and monitor"
+    ],
+    "what_you_get": [
+      "SOP documentation template",
+      "Automation mapping worksheet",
+      "Zapier/Make setup guide",
+      "Handoff checklist"
+    ],
+    "technical_details": "Requires Zapier or Make (formerly Integromat) account. Free tiers available for basic automations.",
+    "gumroad_url": "https://gumroad.com/l/ops-automation-sop",
+    "price_usd": 59
+  },
+  {
+    "id": 8,
+    "slug": "linkedin-nurture-content",
+    "name": "LinkedIn Nurture Content Playbook",
+    "short_description": "Build authority and stay top-of-mind with a consistent LinkedIn content system.",
+    "category": "nurture",
+    "goal_tags": ["nurture"],
+    "channel_tags": ["linkedin"],
+    "difficulty": "beginner",
+    "region_tags": ["global"],
+    "outcome_text": "You will have a 30-day LinkedIn content calendar and a repeatable posting system.",
+    "before_bullets": [
+      "Posting inconsistently or not at all",
+      "Low engagement on existing content",
+      "No clear content strategy"
+    ],
+    "after_bullets": [
+      "30-day content calendar ready to execute",
+      "Consistent posting cadence",
+      "Growing engagement and inbound leads"
+    ],
+    "how_steps": [
+      "Define your content pillars (3–5 topics)",
+      "Use the post templates to batch-write 30 posts",
+      "Schedule posts using LinkedIn or a scheduler",
+      "Engage with comments within the first hour",
+      "Review analytics monthly and adjust"
+    ],
+    "what_you_get": [
+      "30-day content calendar template",
+      "10 LinkedIn post frameworks",
+      "Engagement checklist",
+      "Analytics review guide"
+    ],
+    "technical_details": "Works with native LinkedIn scheduling or tools like Buffer, Hootsuite, or Taplio.",
+    "gumroad_url": "https://gumroad.com/l/linkedin-nurture-content",
+    "price_usd": 39
   }
 ]

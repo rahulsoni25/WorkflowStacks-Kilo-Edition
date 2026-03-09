@@ -19,6 +19,8 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] Home page v2: Hero section + Featured Playbooks grid using `getPlaybooks()`
 - [x] `/playbooks` list page: server component + `PlaybooksClient` with category filter chips (All, Research, Ads, Nurture, Ops) and responsive card grid
 - [x] `/playbooks/[slug]` detail page: SSG via `generateStaticParams`, two-column layout (main + sticky right panel), Before/After, How it works, What you get, collapsible Technical details (`TechnicalDetails` client component)
+- [x] `data/playbooks.json` expanded to 8 playbooks with proper `goal_tags` (`leads`, `competitor_research`, `nurture`, `ops`) and `channel_tags` (`meta`, `google`, `linkedin`, `email`, `whatsapp`)
+- [x] `/stackfinder` quiz page: server component wrapper + `StackFinderClient` (`"use client"`) with 4-step form (goal, channels, skill, budget), deterministic filtering, up to 3 result cards with "Because you chose…" rationale, done-for-you banner for non-technical + budget ≥ $50, empty-state with browse link
 
 ## Current Structure
 
