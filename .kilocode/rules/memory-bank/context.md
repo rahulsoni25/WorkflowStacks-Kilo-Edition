@@ -32,6 +32,10 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] `README.md`: created with project description, local dev setup, Sheets sync instructions, pricing model overview, Vercel deployment guide, remaining TODOs
 - [x] Updated Playbook data model with system-style names, outcome-driven outcomes, and new fields (`who_this_is_for`, `prerequisites`, `time_to_deploy`)
 - [x] Updated playbook detail page with "Who this is for" and "Prerequisites & Time to deploy" sections
+- [x] Added `is_placeholder` field to Playbook type and sync script
+- [x] Updated playbook detail page with placeholder vs real CTA logic (shows "Join waitlist" for placeholders, "Get this playbook" for real products)
+- [x] Added Launch checklist and Smoke test sections to `docs/mvp-tech-doc.md`
+- [x] Added "How to add a new playbook" section to `README.md`
 
 ## Current Structure
 
