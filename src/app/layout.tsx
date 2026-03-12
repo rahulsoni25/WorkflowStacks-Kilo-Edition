@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/playbooks", label: "Playbooks" },
+  { href: "/tools", label: "Tools" },
   { href: "/stackfinder", label: "Stack Finder" },
   { href: "/automation-sprint", label: "Automation Sprint" },
   { href: "/chat", label: "AI Chat" },
